@@ -42,6 +42,6 @@
     }
 
     .header__navmenu li,a {
-        font-size: clamp(14px, 4vw, 20px);
+        font-size: clamp(0.9rem, 4vw, 1.25rem);
     }
 }
