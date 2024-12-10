@@ -112,9 +112,9 @@
 
 @media screen and (max-width: 1000px) {
     .hero-section {
-       padding: 2.5rem;
+       padding: 1.3rem;
         height: auto; 
-        gap: 2.4rem;
+        gap: 1.5rem;
     flex-direction: column-reverse;
 
     }
@@ -128,7 +128,7 @@
     }
 
     .hero-section__foto{
-        max-width: 60%;
+        max-width: clamp(200px, 60%, 300px);
 }
 
 .redes__botao{
@@ -144,11 +144,11 @@ max-width: 20vw;
 
 
 .hero-section__titulo {
-    font-size: clamp(0.9rem, 4vw, 1.25rem);
+    font-size: clamp(1.2rem, 4vw, 1.25rem);
     }
 
     .hero-section__descricao{
-        font-size: clamp(0.7rem, 3vw, 1rem);
+        font-size: clamp(1rem, 3vw, 1rem);
     }
 }
     
