@@ -41,11 +41,16 @@
     font-weight: 500;
     line-height: 1.4;
     color: var(--cor-terciaria);
+    hyphens: auto;
+
+ 
+   
     
 }
 
 .hero-section__titulo__grifado{
     color: var(--cor-primaria);
+    
     
 }
 
@@ -54,6 +59,14 @@
     font-family: var(--fonte-secundaria);
     font-weight: 320; 
     color: var(--cor-terciaria);
+    hyphens: auto;
+    word-wrap: break-word;
+    text-align: justify;
+    line-height: 1.3;
+   
+    
+
+         
     
 }
 
