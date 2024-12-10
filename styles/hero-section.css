@@ -119,12 +119,21 @@
     }
 
     .hero-section__foto{
-        max-width: 300px;
+        max-width: 40%;
 }
 
 .redes__botao{
-width: 20vw;
+max-width: 20vw;
 
 }
 
+.hero-section__textos{
+    width: 90vw;
+
+}
+
+
+.hero-section__titulo{
+font-size: 5vw;
+    }
 }
