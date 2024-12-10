@@ -40,4 +40,8 @@
         
         gap: 1rem;
     }
+
+    .header__navmenu li,a {
+        font-size: clamp(14px, 4vw, 20px);
+    }
 }
