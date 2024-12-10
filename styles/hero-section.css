@@ -104,7 +104,7 @@
 
 @media screen and (max-width: 1000px) {
     .hero-section {
-       padding: 2rem 0;
+       padding: 2.5rem;
         height: auto; 
         gap: 2.4rem;
     flex-direction: column-reverse;
@@ -113,13 +113,14 @@
 
 
     .hero-section__content{
-        width: 70vw;
+        width: 100%;
+        
      
         
     }
 
     .hero-section__foto{
-        max-width: 40%;
+        max-width: 60%;
 }
 
 .redes__botao{
@@ -128,12 +129,15 @@ max-width: 20vw;
 }
 
 .hero-section__textos{
-    width: 90vw;
+    
+    width: 100%;
 
 }
 
 
 .hero-section__titulo{
-font-size: 5vw;
+font-size: 4vw;
     }
+
+    
 }
