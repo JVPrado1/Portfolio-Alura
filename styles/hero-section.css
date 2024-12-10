@@ -110,7 +110,7 @@
     
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
     .hero-section {
        padding: 1.3rem;
         height: auto; 
@@ -128,12 +128,18 @@
     }
 
     .hero-section__foto{
-        max-width: clamp(200px, 60%, 300px);
+        max-width: 60%;
 }
 
 .redes__botao{
-max-width: 20vw;
 
+    padding: 1rem 8vw;
+
+}
+
+.hero-section__redes{
+    width: 100vw;
+    align-items: center;
 }
 
 .hero-section__textos{
