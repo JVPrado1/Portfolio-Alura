@@ -1,0 +1,25 @@
+@import url('header.css');
+@import url('hero-section.css');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+:root {
+    --cor-primaria: #22D4FD;
+    --cor-secundaria: black;
+    --cor-terciaria: white;
+    --fonte-principal: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+html {
+    font-size: 1rem; /* Base */
+}
+
+body {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+
+}
+
